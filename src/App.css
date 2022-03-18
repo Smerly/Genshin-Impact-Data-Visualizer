@@ -1,38 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap");
 .App {
-  text-align: center;
+  background: url("/src/static/images/bg.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  overflow: show;
+  width: 2000px;
+  height: 126vh;
+  display: flex;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bg {
+  background-color: rgba(236, 229, 216, 0.7);
+  width: 100%;
+  margin: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-right: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a.navlinks {
+  text-decoration: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card-background {
+  background: linear-gradient(#455370, #455370) padding-box, linear-gradient(to right, #aca194, #ffd49f, #aca194) border-box;
+  border-radius: 8px;
+  border: 4px solid transparent;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 200px;
+  width: 1628px;
+  height: 518px;
 }
 
-.App-link {
-  color: #61dafb;
+.inner-card-bg {
+  background-image: url("/src/static/images/genshin-dec.png");
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: 7%;
+  padding-left: 100px;
+  border: 4px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.index2 {
+  z-index: 2;
+}
+
+.wrapper {
+  position: sticky;
+  display: flex;
+  width: 300px;
+  align-items: stretch;
+  flex-direction: column;
+  height: 50px;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  border-radius: 8px;
+  border: 4px solid transparent;
+  background: linear-gradient(#455370, #455370) padding-box, linear-gradient(to bottom, #aca194, #ffd49f, #aca194) border-box;
+  z-index: 0;
+}
+
+.logo {
+  width: 100%;
+}
+
+.show {
+  display: none;
+}
+
+#sidebar.active {
+  margin-left: -250px;
+}
+
+h4 {
+  color: #e9eff3;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+}
+
+.dropdown-toggle::after {
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+}
+
+@media (max-width: 768px) {
+  #sidebar {
+    margin-left: -250px;
   }
-  to {
-    transform: rotate(360deg);
+
+  #sidebar.active {
+    margin-left: 0;
   }
 }
+body {
+  font-family: "Poppins", sans-serif;
+  background: #fafafa;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1em;
+  font-weight: 300;
+  line-height: 1.7em;
+  color: #999;
+}
+
+a,
+a:hover,
+a:focus {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.sidebar {
+  background: linear-gradient(#455370, #455370) padding-box, linear-gradient(to bottom, #aca194, #ffd49f, #aca194) border-box;
+  transition: all 0.3s;
+  min-width: 250px;
+  max-width: 250px;
+  min-height: 100vh;
+  z-index: 5;
+}
+
+.sidebar-dec {
+  background: url("./static/images/genshin-dec2.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 60%;
+  z-index: 0;
+}
+
+.sidebar .sidebar-header {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar ul.components {
+  padding: 20px 0;
+  border-bottom: 1px solid #47748b;
+}
+
+.sidebar ul p {
+  color: #fff;
+  padding: 10px;
+}
+
+.sidebar ul li a {
+  padding: 10px;
+  font-size: 1.1em;
+  display: block;
+}
+
+.sidebar ul li a:hover {
+  color: #7386d5;
+  background: #fff;
+}
+
+.sidebar ul li.active > a,
+a[aria-expanded=true] {
+  color: #fff;
+  background: #6d7fcc;
+}
+
+ul ul a {
+  font-size: 0.9em !important;
+  padding-left: 30px !important;
+  background: #6d7fcc;
+}
+
+/*# sourceMappingURL=App.css.map */
