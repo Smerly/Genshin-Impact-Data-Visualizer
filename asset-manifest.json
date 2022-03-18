@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Genshin-Impact-Data-Visualizer/static/css/main.878fa19c.css",
+    "main.js": "/Genshin-Impact-Data-Visualizer/static/js/main.ea3c129b.js",
+    "static/js/787.0dec0920.chunk.js": "/Genshin-Impact-Data-Visualizer/static/js/787.0dec0920.chunk.js",
+    "static/media/bg.jpg": "/Genshin-Impact-Data-Visualizer/static/media/bg.c81ba374c4bfe84abc60.jpg",
+    "static/media/genshin_logo.png": "/Genshin-Impact-Data-Visualizer/static/media/genshin_logo.d876eda4951bed2ac6e9.png",
+    "static/media/genshin-dec2.png": "/Genshin-Impact-Data-Visualizer/static/media/genshin-dec2.dcaf534b4528ea55d277.png",
+    "static/media/genshin-dec.png": "/Genshin-Impact-Data-Visualizer/static/media/genshin-dec.7cd1f3e615d3636d3999.png",
+    "index.html": "/Genshin-Impact-Data-Visualizer/index.html",
+    "main.878fa19c.css.map": "/Genshin-Impact-Data-Visualizer/static/css/main.878fa19c.css.map",
+    "main.ea3c129b.js.map": "/Genshin-Impact-Data-Visualizer/static/js/main.ea3c129b.js.map",
+    "787.0dec0920.chunk.js.map": "/Genshin-Impact-Data-Visualizer/static/js/787.0dec0920.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.878fa19c.css",
+    "static/js/main.ea3c129b.js"
+  ]
+}
